@@ -1,0 +1,300 @@
+body {
+    background: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*---------------------------------------
+    Typorgraphy
+-----------------------------------------*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    font-size: 62px;
+    padding-bottom: 14px;
+    margin-bottom: 0;
+    font-family: 'Lobster';
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 46px;
+    font-family: 'Poiret One', cursive;
+
+}
+
+h3 {
+    font-size: 26px;
+    color: #666;
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+
+}
+
+h4 {
+    color: #666;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    font-family: 'Poiret One', cursive;
+
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+}
+
+strong {
+    font-weight: 400;
+}
+
+.btn-success:focus {
+    background-color: #000;
+    border-color: transparent;
+}
+
+
+cite p {
+    font-size: small;
+}
+
+/*---------------------------------------
+    General
+-----------------------------------------*/
+
+html {
+    -webkit-font-smoothing: antialiased;
+}
+.logo-title {
+    color: #E75700;
+    font-size: 46px;
+    margin-top: -13px;
+}
+a {
+    color: #000;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none !important;
+    font-family: 'Poiret One', cursive;
+
+}
+a:active,
+a:focus,
+a:hover {
+    color: #E75700;
+    outline: none;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#about,
+#blog,
+#blog-single-post,
+#contact,
+#portfolio,
+#single-project {
+
+    padding-bottom: 120px;
+}
+
+.section-title {
+    position: relative;
+    padding-bottom: 62px;
+    text-align: center;
+}
+
+.section-title h3 {
+    color: #555;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+
+/*---------------------------------------
+    Preloader section
+-----------------------------------------*/
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background: none repeat scroll 0 0 #ffffff;
+}
+
+.sk-spinner-wordpress.sk-spinner {
+    background-color: #bdc3c7;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: relative;
+    -webkit-animation: sk-innerCircle 1s linear infinite;
+    animation: sk-innerCircle 1s linear infinite;
+}
+
+.sk-spinner-wordpress .sk-inner-circle {
+    display: block;
+    background-color: #ffffff;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    border-radius: 8px;
+    top: 5px;
+    left: 5px;
+}
+
+@-webkit-keyframes sk-innerCircle {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes sk-innerCircle {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+/*---------------------------------------
+    Main Navigation
+-----------------------------------------*/
+
+.navbar-default {
+    background: #ffffff;
+    padding: 18px 0;
+    border: none;
+    margin-top: 30px;
+
+    width: 100%;
+    margin: 0;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+    position: fixed;
+    -webkit-box-shadow: 4px 4px 18px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 18px -14px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 18px -14px rgba(0,0,0,0.75);
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    padding-top: 6px;
+}
+
+.navbar-default .navbar-brand .fa {
+    color: #000;
+    font-size: 42px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-weight: 900;
+}
+
+.navbar-default .navbar-nav > li a:active,
+.navbar-default .navbar-nav > li a:hover {
+    color: #E75700 !important;
+    font-weight: 900;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #777;
+    background-color: transparent;
+    font-weight: 900;
+}
+
+.navbar-default .navbar-nav .active > a,
+.navbar-default .navbar-nav li a:hover {
+    color: #000;
+    font-weight: 900;
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:active,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #E75700;
+    background-color: transparent;
+    font-weight: 900;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+    padding-top: 10px;
+    font-weight: 900;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: #bdc3c7;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
