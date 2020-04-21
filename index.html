@@ -4,12 +4,8 @@
 
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-        <meta
-            name="description"
-            content="Hand made, unique beaded earrings using weaving techniques.">
-        <meta
-            name="keywords"
-            content="Beading, Earrings, Jewellery, Beads, Hand made, Elsa, Miyuki, Weaving">
+        <meta name="description" content="Hand made, unique beaded earrings using weaving techniques.">
+        <meta name="keywords" content="Beading, Earrings, Jewellery, Beads, Hand made, Elsa, Miyuki, Weaving">
         <meta name="author" content="Jed Boyle | Web Developer @ www.jedboyle.com">
         <meta
             name="viewport"
@@ -24,14 +20,19 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Lobster&family=Poiret+One&display=swap"
             rel="stylesheet">
+
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="css/style.css">
         <link
             href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700"
             rel="stylesheet">
 
-        <!-- Main CSS -->
-        <link rel="stylesheet" href="css/style.css">
+        <!-- Lightbox Gallery -->
+        <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 
-        
+        <!-- E-commerce API -->
+
+        <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.11/default/snipcart.css" />
 
     </head>
 
@@ -47,45 +48,42 @@
             </div>
 
             <!-- Navigation section -->
-            <nav>
 
-                <div class="navbar navbar-default navbar-static-top" role="navigation">
-                    <div class="container">
+            <div class="navbar navbar-default navbar-static-top" role="navigation">
+                <div class="container">
 
-                        <div class="navbar-header">
-                            <button
-                                class="navbar-toggle"
-                                data-toggle="collapse"
-                                data-target=".navbar-collapse">
-                                <span class="icon icon-bar"></span>
-                                <span class="icon icon-bar"></span>
-                                <span class="icon icon-bar"></span>
-                            </button>
-                            <a href="index.html" class="navbar-brand">
-                                <h1 class="logo-title">Phoenix Beading</h1>
-                            </a>
-                        </div>
-                        <div class="collapse navbar-collapse">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li>
-                                    <a href="#home">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#about">About</a>
-                                </li>
-                                <li>
-                                    <a href="#portfolio">Shop</a>
-                                </li>
-                                <li>
-                                    <a href="#contact">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-
+                    <div class="navbar-header">
+                        <button
+                            class="navbar-toggle"
+                            data-toggle="collapse"
+                            data-target=".navbar-collapse">
+                            <span class="icon icon-bar"></span>
+                            <span class="icon icon-bar"></span>
+                            <span class="icon icon-bar"></span>
+                        </button>
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="logo-title">Phoenix Beading</h1>
+                        </a>
                     </div>
-                </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#about">About</a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">Shop</a>
+                            </li>
+                            <li>
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
 
-            </nav>
+                </div>
+            </div>
 
         </header>
 
@@ -124,100 +122,176 @@
                     <div class="col-md-4 col-sm-12 line-up"><br>
                         <h1 class="small-title">About Me</h1><br>
                         <p>Hi</p>
-                        <p>Welcome to Phoenix beading. I hand make unique beaded earrings using weaving
-                            techniques.</p>
-                        <p>I’ve always loved being creative and working with beads to create jewellery,
-                            this is my passion.</p>
-                        <p>If you would like a pair of bespoke earrings made, please contact me via<a href="#contact">
-                                email</a>
-                            or
-                            <a href="https://www.instagram.com/phoenix_beading/?hl=en" target="_blank">instagram</a>.
-                            <p>Thank you so much for visiting my website. X</p>
-                            <cite>
-                                <p>Elsa Boyle - Creator and owner of Phoenix beading</p>
-                            </cite>
-                        </div>
-
-                        <div class="clearfix"></div>
-
+                        <p>Welcome to Phoenix beading. I hand make unique beaded earrings using weaving techniques.</p>
+                        <p>I’ve always loved being creative and working with beads to create jewellery, this is my passion.</P>
+                        <p>If you would like a pair of bespoke earrings made, please contact me via<a href="#contact"> email</a> or <a href="https://www.instagram.com/phoenix_beading/?hl=en" target="_blank">instagram</a>.
+                        <p>Thank you so much for visiting my website. X</p>
+                        <cite><p>Elsa Boyle - Creator and owner of Phoenix beading</p></cite>
                     </div>
+
+                    <div class="clearfix"></div>
+
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <hr>
+        <hr>
 
-            <!-- Shop Section -->
+        <!-- Shop Section -->
 
-            <section id="portfolio">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12">
-                                <h1>Shop</h1>
-                                <br><br>
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                        <h1>Shop</h1>
+                        <br><br>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+
+                                <a
+                                    href="images/products/9.jpg"
+                                    data-responsive="true"
+                                    data-lightbox="mygallery"
+                                    data-title="Toucan"><img
+                                    class="example-image"
+                                    src="images/products/9.jpg"
+                                    alt="Toucan"
+                                    title="Toucan"
+                                    class="middle">
+                                    </a>
+                                    <br><br>
+                                    <div class="button-box">
+                                        <button
+                                            class="snipcart-add-item btn gal"
+                                            data-item-id="Toucan"
+                                            data-item-name="Toucan"
+                                            data-item-price="50"
+                                            data-item-weight=""
+                                            data-item-url="https://phoenixbeading.co.uk/"
+                                            data-item-description="Toucan"
+                                            data-item-image="images/products/9.jpg">
+                                            <p>Toucan <span class="dimensions">(12cm x 4cm)</span><br>
+                                                <span class="stand-out">£50.00</span>
+                                                + P & P - add to cart</p>
+                                        </button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="row">
+
+                    
+
+                    
+
+                        <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
+                            <div class="card py-4 h-100">
+                                <div class="card-body text-center">
+
+                                    <a
+                                        href="images/products/10.jpg"
+                                        data-responsive="true"
+                                        data-lightbox="mygallery"
+                                        data-title="Swallow"><img
+                                        class="example-image"
+                                        src="images/products/10.jpg"
+                                        alt="Swallow"
+                                        title="Swallow"
+                                        class="middle">
+                                        </a>
+                                        <br><br>
+                                        <div class="button-box">
+                                            <button
+                                                class="snipcart-add-item btn gal"
+                                                data-item-id="Swallow"
+                                                data-item-name="Swallow"
+                                                data-item-price="40"
+                                                data-item-weight=""
+                                                data-item-url="https://phoenixbeading.co.uk/"
+                                                data-item-description="Swallow"
+                                                data-item-image="images/products/10.jpg">
+                                                <p>Swallow <span class="dimensions">(9cm x 3.5cm)</span><br>
+                                                    <span class="stand-out">£40.00</span>
+                                                    + P & P - add to cart</p>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
                                 <div class="card py-4 h-100">
                                     <div class="card-body text-center">
+
                                         <a
-                                            href="images/products/9.jpg"
+                                            href="images/products/3.jpg"
                                             data-responsive="true"
                                             data-lightbox="mygallery"
-                                            data-title="Toucan"><img
+                                            data-title="Eggshell Geo"><img
                                             class="example-image"
-                                            src="images/products/9.jpg"
-                                            alt="Toucan"
-                                            title="Toucan"
+                                            src="images/products/3.jpg"
+                                            alt="Eggshell Geo"
+                                            title="Eggshell Geo"
                                             class="middle">
                                             </a>
                                             <br><br>
                                             <div class="button-box">
                                                 <button
                                                     class="snipcart-add-item btn gal"
-                                                    data-item-id="Toucan"
-                                                    data-item-name="Toucan"
-                                                    data-item-price="50"
+                                                    data-item-id="Eggshell Geo"
+                                                    data-item-name="Eggshell Geo"
+                                                    data-item-price="30"
                                                     data-item-weight=""
                                                     data-item-url="https://phoenixbeading.co.uk/"
-                                                    data-item-description="Toucan"
-                                                    data-item-image="images/products/9.jpg">
-                                                    <p>Toucan <span class="dimensions">(12cm x 4cm)</span><br>
-                                                        <span class="stand-out">£50.00</span>
+                                                    data-item-description="Eggshell Geo"
+                                                    data-item-image="images/products/3.jpg">
+                                                    <p>Eggshell Geo <span class="dimensions">(15cm x 2.5cm)</span><br>
+                                                        <span class="stand-out">£30.00</span>
                                                         + P & P - add to cart</p>
                                                 </button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <div class="row">
 
                                 <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
                                     <div class="card py-4 h-100">
                                         <div class="card-body text-center">
+
                                             <a
-                                                href="images/products/10.jpg"
+                                                href="images/products/4.jpg"
                                                 data-responsive="true"
                                                 data-lightbox="mygallery"
-                                                data-title="Swallow"><img
+                                                data-title="Phoenix"><img
                                                 class="example-image"
-                                                src="images/products/10.jpg"
-                                                alt="Swallow"
-                                                title="Swallow"
+                                                src="images/products/4.jpg"
+                                                alt="Phoenix"
+                                                title="Phoenix"
                                                 class="middle">
                                                 </a>
                                                 <br><br>
                                                 <div class="button-box">
                                                     <button
                                                         class="snipcart-add-item btn gal"
-                                                        data-item-id="Swallow"
-                                                        data-item-name="Swallow"
-                                                        data-item-price="40"
+                                                        data-item-id="Phoenix"
+                                                        data-item-name="Phoenix"
+                                                        data-item-price="50"
                                                         data-item-weight=""
                                                         data-item-url="https://phoenixbeading.co.uk/"
-                                                        data-item-description="Swallow"
-                                                        data-item-image="images/products/10.jpg">
-                                                        <p>Swallow <span class="dimensions">(9cm x 3.5cm)</span><br>
-                                                            <span class="stand-out">£40.00</span>
+                                                        data-item-description="Phoenix"
+                                                        data-item-image="images/products/4.jpg">
+                                                        <p>Phoenix <span class="dimensions">(16cm x 3.5cm)</span><br>
+                                                            <span class="stand-out">£50.00</span>
                                                             + P & P - add to cart</p>
                                                     </button>
                                                 </div>
@@ -228,66 +302,31 @@
                                     <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
                                         <div class="card py-4 h-100">
                                             <div class="card-body text-center">
-                                                <a
-                                                    href="images/products/3.jpg"
-                                                    data-responsive="true"
-                                                    data-lightbox="mygallery"
-                                                    data-title="Eggshell Geo"><img
-                                                    class="example-image"
-                                                    src="images/products/3.jpg"
-                                                    alt="Eggshell Geo"
-                                                    title="Eggshell Geo"
-                                                    class="middle">
-                                                    </a>
-                                                    <br><br>
-                                                    <div class="button-box">
-                                                        <button
-                                                            class="snipcart-add-item btn gal"
-                                                            data-item-id="Eggshell Geo"
-                                                            data-item-name="Eggshell Geo"
-                                                            data-item-price="30"
-                                                            data-item-weight=""
-                                                            data-item-url="https://phoenixbeading.co.uk/"
-                                                            data-item-description="Eggshell Geo"
-                                                            data-item-image="images/products/3.jpg">
-                                                            <p>Eggshell Geo <span class="dimensions">(15cm x 2.5cm)</span><br>
-                                                                <span class="stand-out">£30.00</span>
-                                                                + P & P - add to cart</p>
-                                                        </button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                            </div>
 
-                                <div class="row">
-                                    <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
-                                        <div class="card py-4 h-100">
-                                            <div class="card-body text-center">
                                                 <a
-                                                    href="images/products/4.jpg"
+                                                    href="images/products/5.jpg"
                                                     data-responsive="true"
                                                     data-lightbox="mygallery"
-                                                    data-title="Phoenix"><img
+                                                    data-title="Hummingbird"><img
                                                     class="example-image"
-                                                    src="images/products/4.jpg"
-                                                    alt="Phoenix"
-                                                    title="Phoenix"
+                                                    src="images/products/5.jpg"
+                                                    alt="Hummingbird"
+                                                    title="Hummingbird"
                                                     class="middle">
                                                     </a>
                                                     <br><br>
                                                     <div class="button-box">
                                                         <button
                                                             class="snipcart-add-item btn gal"
-                                                            data-item-id="Phoenix"
-                                                            data-item-name="Phoenix"
-                                                            data-item-price="50"
+                                                            data-item-id="Hummingbird"
+                                                            data-item-name="Hummingbird"
+                                                            data-item-price="45"
                                                             data-item-weight=""
                                                             data-item-url="https://phoenixbeading.co.uk/"
-                                                            data-item-description="Phoenix"
-                                                            data-item-image="images/products/4.jpg">
-                                                            <p>Phoenix <span class="dimensions">(16cm x 3.5cm)</span><br>
-                                                                <span class="stand-out">£50.00</span>
+                                                            data-item-description="Hummingbird"
+                                                            data-item-image="images/products/5.jpg">
+                                                            <p>Hummingbird <span class="dimensions">(14cm x 3.5cm)</span><br>
+                                                                <span class="stand-out">£45.00</span>
                                                                 + P & P - add to cart</p>
                                                         </button>
                                                     </div>
@@ -298,99 +337,103 @@
                                         <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
                                             <div class="card py-4 h-100">
                                                 <div class="card-body text-center">
+
                                                     <a
-                                                        href="images/products/5.jpg"
+                                                        href="images/products/6.jpg"
                                                         data-responsive="true"
                                                         data-lightbox="mygallery"
-                                                        data-title="Hummingbird"><img
+                                                        data-title="Anhinga"><img
                                                         class="example-image"
-                                                        src="images/products/5.jpg"
-                                                        alt="Hummingbird"
-                                                        title="Hummingbird"
+                                                        src="images/products/6.jpg"
+                                                        alt="Anhinga"
+                                                        title="Anhinga"
                                                         class="middle">
                                                         </a>
                                                         <br><br>
                                                         <div class="button-box">
                                                             <button
                                                                 class="snipcart-add-item btn gal"
-                                                                data-item-id="Hummingbird"
-                                                                data-item-name="Hummingbird"
-                                                                data-item-price="45"
+                                                                data-item-id="Anhinga"
+                                                                data-item-name="Anhinga"
+                                                                data-item-price="50"
                                                                 data-item-weight=""
                                                                 data-item-url="https://phoenixbeading.co.uk/"
-                                                                data-item-description="Hummingbird"
-                                                                data-item-image="images/products/5.jpg">
-                                                                <p>Hummingbird <span class="dimensions">(14cm x 3.5cm)</span><br>
-                                                                    <span class="stand-out">£45.00</span>
+                                                                data-item-description="Anhinga"
+                                                                data-item-image="images/products/6.jpg">
+                                                                <p>Anhinga <span class="dimensions">(14cm x 4cm)</span><br>
+                                                                    <span class="stand-out">£50.00</span>
                                                                     + P & P - add to cart</p>
                                                             </button>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
+
+                                        <div class="row">
 
                                             <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
                                                 <div class="card py-4 h-100">
                                                     <div class="card-body text-center">
+
                                                         <a
-                                                            href="images/products/6.jpg"
+                                                            href="images/products/7.jpg"
                                                             data-responsive="true"
                                                             data-lightbox="mygallery"
-                                                            data-title="Anhinga"><img
+                                                            data-title="Kea"><img
                                                             class="example-image"
-                                                            src="images/products/6.jpg"
-                                                            alt="Anhinga"
-                                                            title="Anhinga"
+                                                            src="images/products/7.jpg"
+                                                            alt="Kea"
+                                                            title="Kea"
                                                             class="middle">
                                                             </a>
                                                             <br><br>
                                                             <div class="button-box">
                                                                 <button
                                                                     class="snipcart-add-item btn gal"
-                                                                    data-item-id="Anhinga"
-                                                                    data-item-name="Anhinga"
-                                                                    data-item-price="50"
+                                                                    data-item-id="Kea"
+                                                                    data-item-name="Kea"
+                                                                    data-item-price="30"
                                                                     data-item-weight=""
                                                                     data-item-url="https://phoenixbeading.co.uk/"
-                                                                    data-item-description="Anhinga"
-                                                                    data-item-image="images/products/6.jpg">
-                                                                    <p>Anhinga <span class="dimensions">(14cm x 4cm)</span><br>
-                                                                        <span class="stand-out">£50.00</span>
+                                                                    data-item-description="Kea"
+                                                                    data-item-image="images/products/7.jpg">
+                                                                    <p>Kea <span class="dimensions">(13cm x 3cm)</span><br>
+                                                                        <span class="stand-out">£30.00</span>
                                                                         + P & P - add to cart</p>
                                                                 </button>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
 
-                                            <div class="row">
                                                 <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
                                                     <div class="card py-4 h-100">
                                                         <div class="card-body text-center">
+
                                                             <a
-                                                                href="images/products/7.jpg"
+                                                                href="images/products/8.jpg"
                                                                 data-responsive="true"
                                                                 data-lightbox="mygallery"
-                                                                data-title="Kea"><img
+                                                                data-title="Flamingo"><img
                                                                 class="example-image"
-                                                                src="images/products/7.jpg"
-                                                                alt="Kea"
-                                                                title="Kea"
+                                                                src="images/products/8.jpg"
+                                                                alt="Flamingo"
+                                                                title="Flamingo"
                                                                 class="middle">
                                                                 </a>
                                                                 <br><br>
                                                                 <div class="button-box">
                                                                     <button
                                                                         class="snipcart-add-item btn gal"
-                                                                        data-item-id="Kea"
-                                                                        data-item-name="Kea"
+                                                                        data-item-id="Flamingo"
+                                                                        data-item-name="Flamingo"
                                                                         data-item-price="30"
                                                                         data-item-weight=""
                                                                         data-item-url="https://phoenixbeading.co.uk/"
-                                                                        data-item-description="Kea"
-                                                                        data-item-image="images/products/7.jpg">
-                                                                        <p>Kea <span class="dimensions">(13cm x 3cm)</span><br>
+                                                                        data-item-description="Flamingo"
+                                                                        data-item-image="images/products/8.jpg">
+                                                                        <p>Flamingo <span class="dimensions">(13cm x 4.5cm)</span><br>
                                                                             <span class="stand-out">£30.00</span>
                                                                             + P & P - add to cart</p>
                                                                     </button>
@@ -399,162 +442,204 @@
                                                         </div>
                                                     </div>
 
-                                                    <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
-                                                        <div class="card py-4 h-100">
-                                                            <div class="card-body text-center">
-                                                                <a
-                                                                    href="images/products/8.jpg"
-                                                                    data-responsive="true"
-                                                                    data-lightbox="mygallery"
-                                                                    data-title="Flamingo"><img
-                                                                    class="example-image"
-                                                                    src="images/products/8.jpg"
-                                                                    alt="Flamingo"
-                                                                    title="Flamingo"
-                                                                    class="middle">
-                                                                    </a>
-                                                                    <br><br>
-                                                                    <div class="button-box">
-                                                                        <button
-                                                                            class="snipcart-add-item btn gal"
-                                                                            data-item-id="Flamingo"
-                                                                            data-item-name="Flamingo"
-                                                                            data-item-price="30"
-                                                                            data-item-weight=""
-                                                                            data-item-url="https://phoenixbeading.co.uk/"
-                                                                            data-item-description="Flamingo"
-                                                                            data-item-image="images/products/8.jpg">
-                                                                            <p>Flamingo <span class="dimensions">(13cm x 4.5cm)</span><br>
-                                                                                <span class="stand-out">£30.00</span>
-                                                                                + P & P - add to cart</p>
-                                                                        </button>
+                                                    
+
+                                                            <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
+                                                                <div class="card py-4 h-100">
+                                                                    <div class="card-body text-center">
+                                        
+                                                                        <a
+                                                                            href="images/products/1.jpg"
+                                                                            data-responsive="true"
+                                                                            data-lightbox="mygallery"
+                                                                            data-title="Peacock"><img
+                                                                            class="example-image"
+                                                                            src="images/products/1.jpg"
+                                                                            alt="Peacock"
+                                                                            title="Peacock"
+                                                                            class="middle">
+                                                                            </a>
+                                                                            <br><br>
+                                                                            <div class="button-box">
+                                                                                <button
+                                                                                    class="snipcart-add-item btn gal"
+                                                                                    data-item-id="Peacock"
+                                                                                    data-item-name="Peacock"
+                                                                                    data-item-price="70"
+                                                                                    data-item-weight=""
+                                                                                    data-item-url="https://phoenixbeading.co.uk/"
+                                                                                    data-item-description="Peacock"
+                                                                                    data-item-image="images/products/1.jpg">
+                                                                                    <p>Peacock <span class="dimensions">(27cm x 2.5cm)</span><br>
+                                                                                        <span class="stand-out">£70.00</span>
+                                                                                        + P & P - <span class="underline">add to cart</span></p>
+                                                                                </button>
+                                                                            </div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
-                                                            <div class="card py-4 h-100">
-                                                                <div class="card-body text-center">
-                                                                     <a
-                                                                        href="images/products/1.jpg"
-                                                                        data-responsive="true"
-                                                                        data-lightbox="mygallery"
-                                                                        data-title="Peacock"><img
-                                                                        class="example-image"
-                                                                        src="images/products/1.jpg"
-                                                                        alt="Peacock"
-                                                                        title="Peacock"
-                                                                        class="middle">
-                                                                        </a>
-                                                                        <br><br>
-                                                                        <div class="button-box">
-                                                                            <button
-                                                                                class="snipcart-add-item btn gal"
-                                                                                data-item-id="Peacock"
-                                                                                data-item-name="Peacock"
-                                                                                data-item-price="70"
-                                                                                data-item-weight=""
-                                                                                data-item-url="https://phoenixbeading.co.uk/"
-                                                                                data-item-description="Peacock"
-                                                                                data-item-image="images/products/1.jpg">
-                                                                                <p>Peacock <span class="dimensions">(27cm x 2.5cm)</span><br>
-                                                                                    <span class="stand-out">£70.00</span>
-                                                                                    + P & P - <span class="underline">add to cart</span></p>
+                                        
+                                                                <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
+                                                                    <div class="card py-4 h-100">
+                                                                        <div class="card-body text-center">
+                                        
+                                                                            <a
+                                                                                href="images/products/2.jpg"
+                                                                                data-responsive="true"
+                                                                                data-lightbox="mygallery"
+                                                                                data-title="Phoenix Original"><img
+                                                                                class="example-image"
+                                                                                src="images/products/2.jpg"
+                                                                                alt="Phoenix Original"
+                                                                                title="Phoenix Original"
+                                                                                class="middle">
+                                                                                </a>
+                                                                                <br><br>
+                                                                                <div class="button-box">
+                                                                                    <button
+                                                                                        class="snipcart-add-item btn gal"
+                                                                                        data-item-id="Phoenix Original"
+                                                                                        data-item-name="Phoenix Original"
+                                                                                        data-item-price="60"
+                                                                                        data-item-weight=""
+                                                                                        data-item-url="https://phoenixbeading.co.uk/"
+                                                                                        data-item-description="Phoenix Original"
+                                                                                        data-item-image="images/products/2.jpg">
+                                                                                        <p>Phoenix Original <span class="dimensions">(18cm x 4.5cm)</span><br>
+                                                                                            <span class="stand-out">£60.00</span>
+                                                                                            + P & P - add to cart</p>
                                                                                     </button>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
 
-                                                                    <div class="col-sm-12 col-md-4 mb-3 mb-md-0 col-lg-4">
-                                                                        <div class="card py-4 h-100">
-                                                                            <div class="card-body text-center">
-                                                                                <a
-                                                                                    href="images/products/2.jpg"
-                                                                                    data-responsive="true"
-                                                                                    data-lightbox="mygallery"
-                                                                                    data-title="Phoenix Original"><img
-                                                                                    class="example-image"
-                                                                                    src="images/products/2.jpg"
-                                                                                    alt="Phoenix Original"
-                                                                                    title="Phoenix Original"
-                                                                                    class="middle">
-                                                                                    </a>
-                                                                                    <br><br>
-                                                                                    <div class="button-box">
-                                                                                        <button
-                                                                                            class="snipcart-add-item btn gal"
-                                                                                            data-item-id="Phoenix Original"
-                                                                                            data-item-name="Phoenix Original"
-                                                                                            data-item-price="60"
-                                                                                            data-item-weight=""
-                                                                                            data-item-url="https://phoenixbeading.co.uk/"
-                                                                                            data-item-description="Phoenix Original"
-                                                                                            data-item-image="images/products/2.jpg">
-                                                                                            <p>Phoenix Original <span class="dimensions">(18cm x 4.5cm)</span><br>
-                                                                                                <span class="stand-out">£60.00</span>
-                                                                                                + P & P - add to cart</p>
-                                                                                        </button>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
 
-                                                        <div class="col-md-12 col-sm-12 text-center">
-                                                            <h3>If you have a custom design in mind please send me a message via my
-                                                                <a href="#contact">contact section</a>
-                                                            </h3>
-                                                        </div>
+
+
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                        <hr>
 
-                                        <section id="contact">
-                                            <div class="container">
-                                                <div class="row">
-                                                    <div class="col-md-offset-1 col-md-10 col-sm-12">
-                                                        <div class="section-title">
-                                                            <h1>Get in Touch</h1>
-                                                            <h3>Please leave a message.</h3>
-                                                        </div>
-                                                        <form id="myform">
-                                                            <div class="col-md-6 col-sm-6">
-                                                                <input type="text" name="from_name" class="form-control" placeholder="Name"/>
-                                                            </div>
-                                                            <div class="col-md-6 col-sm-6">
-                                                                <input type="text" name="from_email" class="form-control" placeholder="Email"/>
-                                                            </div>
-                                                            <div class="col-md-12 col-sm-12">
-                                                                <textarea
-                                                                    type="text"
-                                                                    name="project_request"
-                                                                    class="form-control"
-                                                                    placeholder="Message"
-                                                                    rows="5"/></textarea>
-                                                        </div>
-                                                        <br><br>
-                                                        <div class="col-md-12 col-sm-12">
-                                                            <br>
-                                                            <input class="form-control" type="submit"></input>
-                                                        </div>
-                                                    </form>
+                                                    <div class="col-md-12 col-sm-12 text-center">
+                                                        <h3>If you have a custom design in mind please send me a message via my
+                                                            <a href="#contact">contact section</a>
+                                                        </h3>
+                                                    </div>
+
                                                 </div>
+
                                             </div>
+
                                         </div>
                                     </section>
+                                    <hr>
 
-                                </main>
+                                    <section id="contact">
+                                        <div class="container">
+                                            <div class="row">
 
-                                <hr>
+                                                <div class="col-md-offset-1 col-md-10 col-sm-12">
+                                                    <div class="section-title">
+                                                        <h1>Get in Touch</h1>
+                                                        <h3>Please leave a message.</h3>
+                                                    </div>
 
-        </main>
+                                                    <form id="myform">
+                                                        <div class="col-md-6 col-sm-6">
+                                                            <input type="text" name="from_name" class="form-control" placeholder="Name"/>
+                                                        </div>
+                                                        <div class="col-md-6 col-sm-6">
+                                                            <input type="text" name="from_email" class="form-control" placeholder="Email"/>
+                                                        </div>
+                                                        <div class="col-md-12 col-sm-12">
 
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/custom.js"></script>
+                                                            <textarea
+                                                                type="text"
+                                                                name="project_request"
+                                                                class="form-control"
+                                                                placeholder="Message"
+                                                                rows="5"/></textarea>
+                                                    </div>
+                                                    <br><br>
+                                                    <div class="col-md-12 col-sm-12">
+                                                        <br>
+                                                        <input class="form-control" type="submit"></input>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
 
-    </body>
+                                </section>
+
+                            </main>
+
+                            <hr>
+                            <!-- Footer Section -->
+
+                            <footer>
+                                <div class="container">
+                                    <div class="row">
+
+                                        <div class="col-md-3 col-sm-3">
+                                            <a href="index.html">
+                                                <h1 class="logo-title">Phoenix Beading</h1>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-md-4 col-sm-4">
+                                            <!-- <p>124 Market Street, Suite 3570 San Francisco, CA 3042 United States</p>
+                                            -->
+                                        </div>
+
+                                        <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-3">
+                                            <p class="email">
+                                                <a href="mailto:elboboyle@gmail.com" target="_blank">elboboyle@gmail.com</a>
+                                            </p>
+
+                                        </div>
+
+                                        <div class="clearfix col-md-12 col-sm-12">
+                                            <hr>
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="footer-copyright">
+                                                <p>© 2019 Phoenix Beading | All Rights Reserved.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-6">
+                                            <ul class="social-icon">
+                                                <li>
+                                                    <a
+                                                        href="https://www.instagram.com/phoenix_beading/?hl=en"
+                                                        class="fa fa-instagram"
+                                                        target="_blank"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="#" class="fa fa-linkedin" target="_blank"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </footer>
+
+                            <!-- SCRIPTS -->
+                            <script src="js/lightbox-plus-jquery.min.js"></script>
+                            <script src="js/jquery.js"></script>
+                            <script src="js/bootstrap.min.js"></script>
+                            <script src="js/custom.js"></script>
+                            <div hidden id="snipcart" data-api-key="OGEwZGJjNTYtN2RhOC00ODE5LWFlNjktYzlmYTZlYWYzN2NkNjM3MjI2NDAwODQ3MTg5MjA2"></div>
+                            <script src="https://cdn.snipcart.com/themes/v3.0.11/default/snipcart.js"></script>
+                            <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+                            <script type="text/javascript">
+                            (function(){
+                                emailjs.init("user_IAp3llvjBIWU0TrsxfcAr");
+                            })();
+                            </script>
+                            <script src="js/sendEmail.js"></script>
+                        </body>
+
+                    </html>
