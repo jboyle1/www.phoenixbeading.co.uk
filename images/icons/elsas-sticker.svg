@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1181" height="1181" viewBox="0 0 1181 1181">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fcfafb;
+        stroke: #010101;
+        stroke-width: 1px;
+      }
+
+      .cls-2 {
+        font-size: 75px;
+        fill: #9e4621;
+        text-anchor: middle;
+        font-family: "Lobster 1.3";
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="591" cy="591" r="177"/>
+  <text id="Phoenix_Beading" data-name="Phoenix Beading" class="cls-2" x="591.424" y="564.131"><tspan x="591.424">Phoenix</tspan><tspan x="591.424" dy="90">Beading</tspan></text>
+</svg>
