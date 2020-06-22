@@ -489,21 +489,21 @@ hr {
     }
 
     .carousel-item:nth-child(1) {
-        background-image: url("../images/products/2.jpg");
+        background-image: url("../images/products/peacock2.jpg");
         background-size: 210px;
         -webkit-transform: rotateY(0) translateZ(182px);
         transform: rotateY(0) translateZ(182px);
     }
 
     .carousel-item:nth-child(2) {
-        background-image: url("../images/products/10.jpg");
+        background-image: url("../images/products/phoenix-original2.jpg");
         background-size: 210px;
         -webkit-transform: rotateY(120deg) translateZ(182px);
         transform: rotateY(120deg) translateZ(182px);
     }
 
     .carousel-item:nth-child(3) {
-        background-image: url("../images/products/6.jpg");
+        background-image: url("../images/products/humming-bird2.jpg");
         background-size: 210px;
         -webkit-transform: rotateY(240deg) translateZ(182px);
         transform: rotateY(240deg) translateZ(182px);
